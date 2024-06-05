@@ -3,6 +3,18 @@
 Overview
 This project aims to predict the closing price of a stock (Apple Inc. - AAPL) using a GRU (Gated Recurrent Unit) neural network. The model is trained on historical stock data fetched from Yahoo Finance and incorporates Fourier features for better performance. The project also includes evaluation metrics and visualization of predictions against actual stock prices.
 
+Evaluation Metrics
+Evaluation for Timeframe 2024-01-01 to 2024-06-04:
+The model's performance on the test set is as follows:
+
+RMSE (Root Mean Squared Error): 1.98
+MAE (Mean Absolute Error): 1.78
+MAPE (Mean Absolute Percentage Error): 0.93%
+MFE (Mean Forecast Error): -1.75
+MAD (Mean Absolute Deviation): 1.78
+R2 (R-squared score): -0.83
+
+
 Project Structure
 best_gru_model.h5: The saved GRU model with the best performance.
 main.py: The main script to train, evaluate, and visualize the model's predictions.
