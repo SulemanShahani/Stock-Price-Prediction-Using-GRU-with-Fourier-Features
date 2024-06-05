@@ -47,20 +47,7 @@ model = Sequential([
 Hyperparameter Tuning
 A random search method is used to find the best hyperparameters (units, batch size, learning rate, dropout rate) by evaluating the model's performance on the validation set.
 
-best_rmse = float('inf')
-best_params = None
-best_model = None
 
-units_options = [50, 100, 150]
-batch_size_options = [16, 32, 64]
-learning_rate_options = [0.001, 0.01, 0.05]
-dropout_rate_options = [0.2, 0.3, 0.4]
-
-for units in units_options:
-    for batch_size in batch_size_options:
-        for lr in learning_rate_options:
-            for dropout_rate in dropout_rate_options:
-                ...
 
 Evaluation
 Metrics
