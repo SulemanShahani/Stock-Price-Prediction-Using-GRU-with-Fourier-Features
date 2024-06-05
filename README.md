@@ -1,4 +1,5 @@
-# Stock-Price-Prediction-using-GRU
+
+# Stock Price Prediction Using GRU with Fourier Features
 Overview
 This project aims to predict the closing price of a stock (Apple Inc. - AAPL) using a GRU (Gated Recurrent Unit) neural network. The model is trained on historical stock data fetched from Yahoo Finance and incorporates Fourier features for better performance. The project also includes evaluation metrics and visualization of predictions against actual stock prices.
 
