@@ -67,26 +67,15 @@ Future Work
 1. Enhance Model Architecture
 Experiment with different neural network architectures like LSTM, Transformer models, or hybrid models.
 Perform extensive hyperparameter tuning using techniques such as grid search or Bayesian optimization.
-2. Feature Engineering
+
+3. Feature Engineering
 Include more features like trading volume, technical indicators (e.g., RSI, MACD), sentiment analysis from news or social media, and macroeconomic indicators.
 Integrate features like lagged values, moving averages, and rolling statistics to better capture trends and seasonality.
-3. Data Augmentation
-Use techniques like SMOTE or GANs to generate synthetic data for training, especially for rare events.
-Incorporate data from different sources and markets to make the model more robust.
-4. Model Evaluation and Validation
-Implement k-fold cross-validation specifically adapted for time series data to ensure the model's robustness and generalizability.
-Continuously test the model on out-of-sample data to validate its predictive performance.
-5. Model Deployment
-Develop a real-time prediction system that continuously updates and forecasts stock prices.
-Create an API for the model to be used by external applications or systems for real-time predictions.
-6. Explainability and Interpretability
-Use SHAP (SHapley Additive exPlanations) or LIME (Local Interpretable Model-agnostic Explanations) to understand the model's decision-making process.
-Regularly analyze and report the importance of different features to gain insights into the factors influencing stock prices.
-7. Handling Missing Data
-Develop sophisticated techniques for handling missing data, such as using machine learning algorithms for imputation or modeling missing data directly within the prediction model.
-8. Risk Management
+
+4. Risk Management
 Integrate risk management metrics like Value at Risk (VaR) and Conditional VaR to provide more comprehensive insights.
 Conduct stress tests to evaluate the model's performance under extreme market conditions.
-9. User Interface and Visualization
+
+5. User Interface and Visualization
 Develop interactive dashboards for visualizing predictions and model performance, allowing users to interact with and customize their views.
 Implement a feedback loop where users can provide feedback on predictions, helping to continuously improve the model.
